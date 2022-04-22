@@ -34,13 +34,8 @@
 						},
 						"url": {
 							"raw": "{{url}}/v1/orders",
-							"host": [
-								"{{url}}"
-							],
-							"path": [
-								"v1",
-								"orders"
-							]
+							"host": ["{{url}}"],
+							"path": ["v1", "orders"]
 						}
 					},
 					"response": []
@@ -74,14 +69,8 @@
 						},
 						"url": {
 							"raw": "{{url}}/v1/orders/my-orders",
-							"host": [
-								"{{url}}"
-							],
-							"path": [
-								"v1",
-								"orders",
-								"my-orders"
-							]
+							"host": ["{{url}}"],
+							"path": ["v1", "orders", "my-orders"]
 						}
 					},
 					"response": []
@@ -103,13 +92,8 @@
 						"header": [],
 						"url": {
 							"raw": "{{url}}/v1/orders",
-							"host": [
-								"{{url}}"
-							],
-							"path": [
-								"v1",
-								"orders"
-							]
+							"host": ["{{url}}"],
+							"path": ["v1", "orders"]
 						}
 					},
 					"response": []
@@ -131,14 +115,8 @@
 						"header": [],
 						"url": {
 							"raw": "{{url}}/v1/orders/7",
-							"host": [
-								"{{url}}"
-							],
-							"path": [
-								"v1",
-								"orders",
-								"7"
-							]
+							"host": ["{{url}}"],
+							"path": ["v1", "orders", "7"]
 						}
 					},
 					"response": []
@@ -160,15 +138,8 @@
 						"header": [],
 						"url": {
 							"raw": "{{url}}/v1/orders/paid/7",
-							"host": [
-								"{{url}}"
-							],
-							"path": [
-								"v1",
-								"orders",
-								"paid",
-								"7"
-							]
+							"host": ["{{url}}"],
+							"path": ["v1", "orders", "paid", "7"]
 						}
 					},
 					"response": []
@@ -199,15 +170,8 @@
 						},
 						"url": {
 							"raw": "{{url}}/v1/orders//7",
-							"host": [
-								"{{url}}"
-							],
-							"path": [
-								"v1",
-								"orders",
-								"",
-								"7"
-							]
+							"host": ["{{url}}"],
+							"path": ["v1", "orders", "", "7"]
 						}
 					},
 					"response": []
@@ -243,13 +207,8 @@
 						},
 						"url": {
 							"raw": "{{url}}/v1/cart",
-							"host": [
-								"{{url}}"
-							],
-							"path": [
-								"v1",
-								"cart"
-							]
+							"host": ["{{url}}"],
+							"path": ["v1", "cart"]
 						}
 					},
 					"response": []
@@ -280,14 +239,8 @@
 						},
 						"url": {
 							"raw": "{{url}}/v1/cart/create-item",
-							"host": [
-								"{{url}}"
-							],
-							"path": [
-								"v1",
-								"cart",
-								"create-item"
-							]
+							"host": ["{{url}}"],
+							"path": ["v1", "cart", "create-item"]
 						}
 					},
 					"response": []
@@ -321,14 +274,8 @@
 						},
 						"url": {
 							"raw": "{{url}}/v1/cart/my-carts",
-							"host": [
-								"{{url}}"
-							],
-							"path": [
-								"v1",
-								"cart",
-								"my-carts"
-							]
+							"host": ["{{url}}"],
+							"path": ["v1", "cart", "my-carts"]
 						}
 					},
 					"response": []
@@ -350,14 +297,8 @@
 						"header": [],
 						"url": {
 							"raw": "{{url}}/v1/cart/2",
-							"host": [
-								"{{url}}"
-							],
-							"path": [
-								"v1",
-								"cart",
-								"2"
-							]
+							"host": ["{{url}}"],
+							"path": ["v1", "cart", "2"]
 						}
 					},
 					"response": []
@@ -388,14 +329,8 @@
 						},
 						"url": {
 							"raw": "{{url}}/v1/cart/4",
-							"host": [
-								"{{url}}"
-							],
-							"path": [
-								"v1",
-								"cart",
-								"4"
-							]
+							"host": ["{{url}}"],
+							"path": ["v1", "cart", "4"]
 						}
 					},
 					"response": []
@@ -426,15 +361,8 @@
 						},
 						"url": {
 							"raw": "{{url}}/v1/cart/manage-item/6",
-							"host": [
-								"{{url}}"
-							],
-							"path": [
-								"v1",
-								"cart",
-								"manage-item",
-								"6"
-							]
+							"host": ["{{url}}"],
+							"path": ["v1", "cart", "manage-item", "6"]
 						}
 					},
 					"response": []
@@ -456,15 +384,8 @@
 						"header": [],
 						"url": {
 							"raw": "{{url}}/v1/cart/manage-item/6",
-							"host": [
-								"{{url}}"
-							],
-							"path": [
-								"v1",
-								"cart",
-								"manage-item",
-								"6"
-							]
+							"host": ["{{url}}"],
+							"path": ["v1", "cart", "manage-item", "6"]
 						}
 					},
 					"response": []
@@ -495,14 +416,8 @@
 						},
 						"url": {
 							"raw": "{{url}}/v1/cart/3",
-							"host": [
-								"{{url}}"
-							],
-							"path": [
-								"v1",
-								"cart",
-								"3"
-							]
+							"host": ["{{url}}"],
+							"path": ["v1", "cart", "3"]
 						}
 					},
 					"response": []
@@ -519,13 +434,8 @@
 						"header": [],
 						"url": {
 							"raw": "{{url}}/v1/products?category=Sport",
-							"host": [
-								"{{url}}"
-							],
-							"path": [
-								"v1",
-								"products"
-							],
+							"host": ["{{url}}"],
+							"path": ["v1", "products"],
 							"query": [
 								{
 									"key": "category",
@@ -562,13 +472,8 @@
 						},
 						"url": {
 							"raw": "{{url}}/v1/products",
-							"host": [
-								"{{url}}"
-							],
-							"path": [
-								"v1",
-								"products"
-							]
+							"host": ["{{url}}"],
+							"path": ["v1", "products"]
 						}
 					},
 					"response": []
@@ -580,14 +485,8 @@
 						"header": [],
 						"url": {
 							"raw": "{{url}}/v1/products/164",
-							"host": [
-								"{{url}}"
-							],
-							"path": [
-								"v1",
-								"products",
-								"164"
-							]
+							"host": ["{{url}}"],
+							"path": ["v1", "products", "164"]
 						}
 					},
 					"response": []
@@ -618,14 +517,8 @@
 						},
 						"url": {
 							"raw": "{{url}}/v1/products/164",
-							"host": [
-								"{{url}}"
-							],
-							"path": [
-								"v1",
-								"products",
-								"164"
-							]
+							"host": ["{{url}}"],
+							"path": ["v1", "products", "164"]
 						}
 					},
 					"response": []
@@ -656,15 +549,8 @@
 						},
 						"url": {
 							"raw": "{{url}}/v1/products/140/reviews",
-							"host": [
-								"{{url}}"
-							],
-							"path": [
-								"v1",
-								"products",
-								"140",
-								"reviews"
-							]
+							"host": ["{{url}}"],
+							"path": ["v1", "products", "140", "reviews"]
 						}
 					},
 					"response": []
@@ -686,14 +572,8 @@
 						"header": [],
 						"url": {
 							"raw": "{{url}}/v1/products/34",
-							"host": [
-								"{{url}}"
-							],
-							"path": [
-								"v1",
-								"products",
-								"34"
-							]
+							"host": ["{{url}}"],
+							"path": ["v1", "products", "34"]
 						}
 					},
 					"response": []
@@ -724,14 +604,8 @@
 						},
 						"url": {
 							"raw": "{{url}}/v1/media/9",
-							"host": [
-								"{{url}}"
-							],
-							"path": [
-								"v1",
-								"media",
-								"9"
-							]
+							"host": ["{{url}}"],
+							"path": ["v1", "media", "9"]
 						}
 					},
 					"response": []
@@ -763,13 +637,8 @@
 						},
 						"url": {
 							"raw": "{{url}}/v1/uploads",
-							"host": [
-								"{{url}}"
-							],
-							"path": [
-								"v1",
-								"uploads"
-							]
+							"host": ["{{url}}"],
+							"path": ["v1", "uploads"]
 						}
 					},
 					"response": []
@@ -781,13 +650,8 @@
 						"header": [],
 						"url": {
 							"raw": "{{url}}/v1/search?keyword=ao",
-							"host": [
-								"{{url}}"
-							],
-							"path": [
-								"v1",
-								"search"
-							],
+							"host": ["{{url}}"],
+							"path": ["v1", "search"],
 							"query": [
 								{
 									"key": "keyword",
@@ -805,14 +669,8 @@
 						"header": [],
 						"url": {
 							"raw": "{{url}}/v1/products/get-all-categories",
-							"host": [
-								"{{url}}"
-							],
-							"path": [
-								"v1",
-								"products",
-								"get-all-categories"
-							]
+							"host": ["{{url}}"],
+							"path": ["v1", "products", "get-all-categories"]
 						}
 					},
 					"response": []
@@ -851,14 +709,8 @@
 						},
 						"url": {
 							"raw": "{{url}}/v1/users/my-profile",
-							"host": [
-								"{{url}}"
-							],
-							"path": [
-								"v1",
-								"users",
-								"my-profile"
-							]
+							"host": ["{{url}}"],
+							"path": ["v1", "users", "my-profile"]
 						}
 					},
 					"response": []
@@ -889,13 +741,8 @@
 						},
 						"url": {
 							"raw": "{{url}}/v1/users",
-							"host": [
-								"{{url}}"
-							],
-							"path": [
-								"v1",
-								"users"
-							]
+							"host": ["{{url}}"],
+							"path": ["v1", "users"]
 						}
 					},
 					"response": []
@@ -929,13 +776,8 @@
 						},
 						"url": {
 							"raw": "{{url}}/v1/users?role=admin&size=2&page=1",
-							"host": [
-								"{{url}}"
-							],
-							"path": [
-								"v1",
-								"users"
-							],
+							"host": ["{{url}}"],
+							"path": ["v1", "users"],
 							"query": [
 								{
 									"key": "role",
@@ -980,14 +822,8 @@
 						},
 						"url": {
 							"raw": "{{url}}/v1/users/change-contact",
-							"host": [
-								"{{url}}"
-							],
-							"path": [
-								"v1",
-								"users",
-								"change-contact"
-							]
+							"host": ["{{url}}"],
+							"path": ["v1", "users", "change-contact"]
 						}
 					},
 					"response": []
@@ -1018,14 +854,8 @@
 						},
 						"url": {
 							"raw": "{{url}}/v1/users/change-email",
-							"host": [
-								"{{url}}"
-							],
-							"path": [
-								"v1",
-								"users",
-								"change-email"
-							]
+							"host": ["{{url}}"],
+							"path": ["v1", "users", "change-email"]
 						}
 					},
 					"response": []
@@ -1056,14 +886,8 @@
 						},
 						"url": {
 							"raw": "{{url}}/v1/users/change-password",
-							"host": [
-								"{{url}}"
-							],
-							"path": [
-								"v1",
-								"users",
-								"change-password"
-							]
+							"host": ["{{url}}"],
+							"path": ["v1", "users", "change-password"]
 						}
 					},
 					"response": []
@@ -1094,14 +918,8 @@
 						},
 						"url": {
 							"raw": "{{url}}/v1/users/change-username",
-							"host": [
-								"{{url}}"
-							],
-							"path": [
-								"v1",
-								"users",
-								"change-username"
-							]
+							"host": ["{{url}}"],
+							"path": ["v1", "users", "change-username"]
 						}
 					},
 					"response": []
@@ -1132,14 +950,8 @@
 						},
 						"url": {
 							"raw": "{{url}}/v1/users/change-avatar",
-							"host": [
-								"{{url}}"
-							],
-							"path": [
-								"v1",
-								"users",
-								"change-avatar"
-							]
+							"host": ["{{url}}"],
+							"path": ["v1", "users", "change-avatar"]
 						}
 					},
 					"response": []
@@ -1161,14 +973,8 @@
 						"header": [],
 						"url": {
 							"raw": "{{url}}/v1/users/233",
-							"host": [
-								"{{url}}"
-							],
-							"path": [
-								"v1",
-								"users",
-								"233"
-							]
+							"host": ["{{url}}"],
+							"path": ["v1", "users", "233"]
 						}
 					},
 					"response": []
@@ -1199,14 +1005,8 @@
 						},
 						"url": {
 							"raw": "{{url}}/v1/users/233",
-							"host": [
-								"{{url}}"
-							],
-							"path": [
-								"v1",
-								"users",
-								"233"
-							]
+							"host": ["{{url}}"],
+							"path": ["v1", "users", "233"]
 						}
 					},
 					"response": []
@@ -1228,14 +1028,8 @@
 						"header": [],
 						"url": {
 							"raw": "{{url}}/v1/users/7",
-							"host": [
-								"{{url}}"
-							],
-							"path": [
-								"v1",
-								"users",
-								"7"
-							]
+							"host": ["{{url}}"],
+							"path": ["v1", "users", "7"]
 						}
 					},
 					"response": []
@@ -1251,9 +1045,7 @@
 						{
 							"listen": "test",
 							"script": {
-								"exec": [
-									""
-								],
+								"exec": [""],
 								"type": "text/javascript"
 							}
 						}
@@ -1280,18 +1072,9 @@
 						"url": {
 							"raw": "http://137.184.207.13:5000/v1/auth/register",
 							"protocol": "http",
-							"host": [
-								"137",
-								"184",
-								"207",
-								"13"
-							],
+							"host": ["137", "184", "207", "13"],
 							"port": "5000",
-							"path": [
-								"v1",
-								"auth",
-								"register"
-							]
+							"path": ["v1", "auth", "register"]
 						}
 					},
 					"response": []
@@ -1312,14 +1095,8 @@
 						},
 						"url": {
 							"raw": "{{url}}/v1/auth/login",
-							"host": [
-								"{{url}}"
-							],
-							"path": [
-								"v1",
-								"auth",
-								"login"
-							]
+							"host": ["{{url}}"],
+							"path": ["v1", "auth", "login"]
 						}
 					},
 					"response": []
@@ -1340,14 +1117,8 @@
 						},
 						"url": {
 							"raw": "{{url}}/v1/auth/logout",
-							"host": [
-								"{{url}}"
-							],
-							"path": [
-								"v1",
-								"auth",
-								"logout"
-							]
+							"host": ["{{url}}"],
+							"path": ["v1", "auth", "logout"]
 						}
 					},
 					"response": []
@@ -1368,14 +1139,8 @@
 						},
 						"url": {
 							"raw": "{{url}}/v1/auth/refresh-tokens",
-							"host": [
-								"{{url}}"
-							],
-							"path": [
-								"v1",
-								"auth",
-								"refresh-tokens"
-							]
+							"host": ["{{url}}"],
+							"path": ["v1", "auth", "refresh-tokens"]
 						}
 					},
 					"response": []
@@ -1406,14 +1171,8 @@
 						},
 						"url": {
 							"raw": "{{url}}/v1/auth/forgot-password",
-							"host": [
-								"{{url}}"
-							],
-							"path": [
-								"v1",
-								"auth",
-								"forgot-password"
-							]
+							"host": ["{{url}}"],
+							"path": ["v1", "auth", "forgot-password"]
 						}
 					},
 					"response": []
@@ -1444,14 +1203,8 @@
 						},
 						"url": {
 							"raw": "{{url}}/v1/auth/send-verification-email",
-							"host": [
-								"{{url}}"
-							],
-							"path": [
-								"v1",
-								"auth",
-								"send-verification-email"
-							]
+							"host": ["{{url}}"],
+							"path": ["v1", "auth", "send-verification-email"]
 						}
 					},
 					"response": []
@@ -1472,14 +1225,8 @@
 						},
 						"url": {
 							"raw": "{{url}}/v1/auth/verify-email?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjIxOSwiaWF0IjoxNjQ5Mzk5MDY5LCJleHAiOjE2NDkzOTk0MjksInR5cGUiOiJ2ZXJpZnlFbWFpbCJ9.3BqwooOW3TVuxlByxF4BDbIDd16EAYlS4xtCh9ZqENY",
-							"host": [
-								"{{url}}"
-							],
-							"path": [
-								"v1",
-								"auth",
-								"verify-email"
-							],
+							"host": ["{{url}}"],
+							"path": ["v1", "auth", "verify-email"],
 							"query": [
 								{
 									"key": "token",
