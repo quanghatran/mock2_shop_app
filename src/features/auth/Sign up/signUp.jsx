@@ -53,7 +53,6 @@ const SignUp = ({ parentCallback }) => {
         </Box>
       </form>
     </Box>
-
   );
 };
 
