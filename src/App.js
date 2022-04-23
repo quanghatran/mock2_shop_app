@@ -4,10 +4,10 @@ import { purple } from "@mui/material/colors";
 import React, { Suspense } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
+import Header from "./components/common/header/header";
 const User = React.lazy(() => import("./features/user/"));
 const Admin = React.lazy(() => import("./features/admin/"));
-const Auth = React.lazy(() => import("./features/auth/"));
-const NotFound = React.lazy(() => import("./components/NotFound"));
+const NotFound = React.lazy(() => import("./components/common/NotFound"));
 
 const theme = createTheme({
 	palette: {
@@ -17,7 +17,7 @@ const theme = createTheme({
 		secondary: purple,
 	},
 	typography: {
-		fontFamily: "Quicksand",
+		fontFamily: "Arial",
 		fontWeightLight: 400,
 		fontWeightRegular: 500,
 		fontWeightMedium: 600,
@@ -31,11 +31,10 @@ function App() {
 			<Suspense fallback={<div>Loading ...</div>}>
 				<ThemeProvider theme={theme}>
 					<BrowserRouter>
+						<Header />
 						<Routes>
 							<Route path='/*' element={<User />} />
 							<Route path='/admin/*' element={<Admin />} />
-							<Route path='/auth/*' element={<Auth />} />
-
 							<Route path='*' element={<NotFound />} />
 						</Routes>
 					</BrowserRouter>
