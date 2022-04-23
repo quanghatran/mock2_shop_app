@@ -1,7 +1,7 @@
 import { Box } from "@mui/material";
 import React, { useState } from "react";
-import Login from "./Sign In/login";
-import SignUp from "./Sign up/signUp";
+import Login from "./Sign In/Login";
+import SignUp from "./Sign up/SignUp";
 import './auth.scss'
 
 const Auth = () => {

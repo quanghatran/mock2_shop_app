@@ -1,7 +1,7 @@
 import { Box, Button, Input, Link, Modal, Typography } from "@mui/material";
 import { useForm } from "react-hook-form";
 import React from "react";
-import Forgot from "./forgot";
+import Forgot from "./Forgot";
 import CloseIcon from '@mui/icons-material/Close';
 
 const Login = ({ parentCallback }) => {

@@ -4,7 +4,7 @@ import { Box, Button, Modal, Typography } from '@mui/material';
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import Auth from '../../../features/auth/index';
-import SearchBar from '../searchBar';
+import SearchBar from '../SearchBar';
 import './header.scss';
 import MenuIcon from '@mui/icons-material/Menu';
 
