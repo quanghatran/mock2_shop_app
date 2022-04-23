@@ -4,10 +4,11 @@ import { purple } from "@mui/material/colors";
 import React, { Suspense } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
-const User = React.lazy(() => import("./features/user/"));
-const Admin = React.lazy(() => import("./features/admin/"));
-const Auth = React.lazy(() => import("./features/auth/"));
-const NotFound = React.lazy(() => import("./components/NotFound"));
+
+const User = React.lazy(() => import("./features/user"));
+const Admin = React.lazy(() => import("./features/admin"));
+const Auth = React.lazy(() => import("./features/auth"));
+const NotFound = React.lazy(() => import("./components/common/NotFound"));
 
 const theme = createTheme({
 	palette: {
@@ -34,6 +35,7 @@ function App() {
 						<Routes>
 							<Route path='/*' element={<User />} />
 							<Route path='/admin/*' element={<Admin />} />
+
 							<Route path='/auth/*' element={<Auth />} />
 
 							<Route path='*' element={<NotFound />} />
